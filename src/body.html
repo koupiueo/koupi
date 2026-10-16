@@ -1,0 +1,98 @@
+    <div class="wrap">
+      <header class="bar">
+        <div class="bar-row">
+          <span class="bar-host">koupi@koupi.dev</span>
+          <nav class="bar-nav" aria-label="Sections">
+            <a href="#hello" data-go="hello"><span class="n">0:</span>hello</a>
+            <a href="#tora" data-go="tora"><span class="n">1:</span>tora</a>
+            <a href="#things" data-go="things"><span class="n">2:</span>things</a>
+            <a href="#music" data-go="music"><span class="n">3:</span>music</a>
+            <a href="#contact" data-go="contact"><span class="n">4:</span>contact</a>
+          </nav>
+          <span class="bar-clock" id="clock"></span>
+        </div>
+        <div class="bar-rule" aria-hidden="true">--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</div>
+      </header>
+
+      <div class="one">
+        <main id="main">
+          <section id="hello" data-scene="hello">
+            <p class="cmd"><span class="ps1">koupi<span class="h">:~$</span></span> <span class="ct">whoami</span></p>
+            <div class="out">
+              <p class="big">koupi</p>
+              <p><span id="myAge">15</span>y/o cat n music lover <span class="pink">&lt;3</span></p>
+              <p class="dim">learning design, english &amp; c++ right now.</p>
+            </div>
+            <div class="stage" data-stage="hello" aria-hidden="true"><canvas></canvas><div class="cap"></div></div>
+          </section>
+
+          <section id="tora" data-scene="tora">
+            <p class="cmd"><span class="ps1">koupi<span class="h">:~$</span></span> <span class="ct">cat tora.txt</span></p>
+            <div class="out">
+              <div class="kv"><span>name</span><span>tora</span></div>
+              <div class="kv"><span>age</span><span><span id="toraAge">3</span>y/o</span></div>
+              <div class="kv"><span>what</span><span>cat. brown tabby.</span></div>
+              <div class="kv"><span>status</span><span id="toraStatus">probably sleeping</span></div>
+              <div class="kv"><span>photos</span><span><a href="https://cat.koupi.dev" target="_blank" rel="noopener">cat.koupi.dev</a></span></div>
+              <p class="dim"><span class="hint-d">v try to catch him with your cursor.</span><span class="hint-m">v tap near him. he'll dodge.</span></p>
+            </div>
+            <div class="stage" data-stage="tora" aria-hidden="true"><canvas></canvas><div class="cap"></div></div>
+          </section>
+
+          <section id="things" data-scene="things" class="things">
+            <p class="cmd"><span class="ps1">koupi<span class="h">:~$</span></span> <span class="ct">ls things-i-made/</span></p>
+            <div class="out">
+              <div class="row" tabindex="0" data-thing="hamachill"><span class="nm">hamachill/</span><span class="ds">a small private chat app</span><a href="#" data-info="hamachill">[info]</a></div>
+              <div class="row" tabindex="0" data-thing="mc-plugins"><span class="nm">mc-plugins/</span><span class="ds">minecraft plugins (java)</span><a href="#" data-info="mc-plugins">[info]</a></div>
+              <div class="row" tabindex="0" data-thing="cat.koupi.dev"><span class="nm">cat.koupi.dev</span><span class="ds">a gallery of tora</span><a href="https://cat.koupi.dev" target="_blank" rel="noopener">[open]</a></div>
+              <p class="dim" id="thingsNote">just stuff i make for fun. not a main, just curious :)</p>
+            </div>
+            <div class="stage" data-stage="things" aria-hidden="true"><canvas></canvas><div class="cap"></div></div>
+          </section>
+
+          <section id="music" data-scene="music">
+            <p class="cmd"><span class="ps1">koupi<span class="h">:~$</span></span> <span class="ct">cat music.txt</span></p>
+            <div class="out">
+              <p>music &amp; cats. that's pretty much me.</p>
+              <p class="dim"># my favorite playlist</p>
+              <div class="pl">
+              <div class="tr" tabindex="0" data-track="0"><span class="no">01</span><span class="sw" style="color:#a95959">&#9632;</span><span class="tt">Stress Relief</span><span class="ar">late night drive home</span><span class="du">3:26</span></div>
+              <div class="tr" tabindex="0" data-track="1"><span class="no">02</span><span class="sw" style="color:#6a631e">&#9632;</span><span class="tt">Nope your too late i already died</span><span class="ar">wifiskeleton, i wanna be a jack-o-lantern, suburban daredevil</span><span class="du">1:31</span></div>
+              <div class="tr" tabindex="0" data-track="2"><span class="no">03</span><span class="sw" style="color:#303327">&#9632;</span><span class="tt">Harvey</span><span class="ar">Her&#x27;s</span><span class="du">3:32</span></div>
+              <div class="tr" tabindex="0" data-track="3"><span class="no">04</span><span class="sw" style="color:#c2b290">&#9632;</span><span class="tt">it’s like i’m not even here</span><span class="ar">mthu</span><span class="du">1:38</span></div>
+              <div class="tr" tabindex="0" data-track="4"><span class="no">05</span><span class="sw" style="color:#7e8066">&#9632;</span><span class="tt">unhappy</span><span class="ar">s0rrow</span><span class="du">1:39</span></div>
+              <div class="tr" tabindex="0" data-track="5"><span class="no">06</span><span class="sw" style="color:#f0d2e1">&#9632;</span><span class="tt">Looking Out for You</span><span class="ar">Joy Again</span><span class="du">3:00</span></div>
+              <div class="tr" tabindex="0" data-track="6"><span class="no">07</span><span class="sw" style="color:#dcd4d5">&#9632;</span><span class="tt">rhetorical</span><span class="ar">duskydemise</span><span class="du">2:21</span></div>
+              <div class="tr" tabindex="0" data-track="7"><span class="no">08</span><span class="sw" style="color:#5c707a">&#9632;</span><span class="tt">im so blue for you</span><span class="ar">zombiwebz</span><span class="du">2:14</span></div>
+              <div class="tr" tabindex="0" data-track="8"><span class="no">09</span><span class="sw" style="color:#d9c8bb">&#9632;</span><span class="tt">the sum of all our sirens</span><span class="ar">Nelward</span><span class="du">5:46</span></div>
+              <div class="tr" tabindex="0" data-track="9"><span class="no">10</span><span class="sw" style="color:#988786">&#9632;</span><span class="tt">bedrott</span><span class="ar">duskydemise</span><span class="du">1:54</span></div>
+              </div>
+            </div>
+            <div class="stage" data-stage="music" aria-hidden="true"><canvas></canvas><div class="cap"></div></div>
+          </section>
+
+          <section id="contact" data-scene="contact" class="json">
+            <p class="cmd"><span class="ps1">koupi<span class="h">:~$</span></span> <span class="ct">cat contact.json</span></p>
+            <div class="out">
+              <p>{</p>
+              <p>&nbsp;&nbsp;<span class="k">"discord"</span>: <button class="lnk copy" type="button" data-copy="koupier">"@koupier"</button>,</p>
+              <p>&nbsp;&nbsp;<span class="k">"github"</span>:&nbsp; <a href="https://github.com/Koupi-dev" target="_blank" rel="noopener">"Koupi-dev"</a>,</p>
+              <p>&nbsp;&nbsp;<span class="k">"youtube"</span>: <a href="https://www.youtube.com/@koupi_dev" target="_blank" rel="noopener">"@koupi_dev"</a>,</p>
+              <p>&nbsp;&nbsp;<span class="k">"x"</span>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://x.com/koupicoupi" target="_blank" rel="noopener">"@koupicoupi"</a></p>
+              <p>}</p>
+              <p class="dim" id="copyNote">// click a value. discord copies the name.</p>
+            </div>
+            <div class="stage" data-stage="contact" aria-hidden="true"><canvas></canvas><div class="cap"></div></div>
+          </section>
+
+          <section id="shell" data-scene="hello">
+            <p class="dim"># that's all! you can also type here. try 'help'</p>
+            <div id="log" role="log" aria-live="polite"></div>
+            <form id="sh" autocomplete="off">
+              <label for="cmd"><span class="ps1">koupi<span class="h">:~$</span></span> </label><span id="typed"></span><span class="caret" aria-hidden="true"></span><span id="ghost" aria-hidden="true"></span>
+              <input id="cmd" type="text" aria-label="Type a command, for example help" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="go" autocomplete="off" />
+            </form>
+          </section>
+        </main>
+      </div>
+    </div>
